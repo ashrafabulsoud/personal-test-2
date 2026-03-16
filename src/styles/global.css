@@ -58,9 +58,18 @@
     font-family: var(--font-albert);
   }
 
-  /* Dot pattern background */
+  /* Dot pattern — real PNG from filamentphp.com */
   .bg-dots {
-    background-image: radial-gradient(circle, var(--color-bone-300) 1px, transparent 1px);
-    background-size: 24px 24px;
+    background-image: url('/dots-pattern.png');
+    background-repeat: repeat;
+    background-size: 200px 200px;
+  }
+
+  /* Dark variant for dark sections */
+  .bg-dots-dark {
+    background-image: url('/dots-pattern.png');
+    background-repeat: repeat;
+    background-size: 200px 200px;
+    filter: invert(1);
   }
 }
