@@ -1,0 +1,66 @@
+@import "tailwindcss";
+
+@theme {
+  /* Custom Filament-inspired warm palette */
+  --color-bone-100: oklch(88.4245% .0300479 70.6911);
+  --color-bone-300: oklch(81.7249% .0488791 73.225);
+  --color-bone-500: oklch(70.3651% .0422809 73.2212);
+  --color-cream-50:  oklch(94.9635% .0271918 72.8095);
+  --color-cream-100: oklch(93.2102% .0290204 72.4687);
+  --color-honey-50:  oklch(95.8608% .0271764 63.9586);
+  --color-honey-100: oklch(90.0675% .0724716 68.035);
+  --color-honey-200: oklch(79.8191% .123963 71.1736);
+  --color-serenade-50: oklch(96.5417% .0239608 67.5384);
+  --color-powder-200: oklch(82.4427% .0701426 263.296);
+  --color-powder-300: oklch(79.5844% .0821458 262.287);
+  --color-minty-100: oklch(89.3447% .0443792 173.052);
+  --color-minty-200: oklch(86.4431% .042287 173.631);
+  --color-cocoa: oklch(33.9171% .0453791 73.2414);
+  --color-bubblegum: oklch(85.3521% .0835634 323.002);
+  --color-flamingo: oklch(81.5% .105659 13.7982);
+  --color-moon-mist-100: oklch(89.2112% .0199018 125.845);
+
+  /* Stone scale */
+  --color-stone-100: oklch(97% .001 106.424);
+  --color-stone-400: oklch(70.9% .01 56.259);
+  --color-stone-500: oklch(55.3% .013 58.071);
+  --color-stone-600: oklch(44.4% .011 73.639);
+  --color-stone-700: oklch(37.4% .01 67.558);
+  --color-stone-800: oklch(26.8% .007 34.298);
+  --color-stone-900: oklch(21.6% .006 56.043);
+
+  /* Typography */
+  --font-outfit: "Outfit", sans-serif;
+  --font-albert: "Albert Sans", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-cream-50);
+    color: var(--color-stone-800);
+    font-family: var(--font-albert);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+@layer utilities {
+  .font-outfit {
+    font-family: var(--font-outfit);
+  }
+
+  .font-albert {
+    font-family: var(--font-albert);
+  }
+
+  /* Dot pattern background */
+  .bg-dots {
+    background-image: radial-gradient(circle, var(--color-bone-300) 1px, transparent 1px);
+    background-size: 24px 24px;
+  }
+}

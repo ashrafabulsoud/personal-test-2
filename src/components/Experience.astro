@@ -1,0 +1,169 @@
+---
+const experiences = [
+  {
+    role: "Web Developer",
+    company: "Al-Fanar Media",
+    location: "London, United Kingdom",
+    period: "Present",
+    type: "Full-time",
+    description:
+      "Building and maintaining digital platforms for one of the Arab world's leading independent media organisations, focused on education, research, and culture. Working across the full web stack to deliver performant, accessible experiences for Arabic and English-speaking audiences.",
+    highlights: [
+      "Developing and maintaining public-facing web properties",
+      "Working with bilingual content (Arabic / English) on a global platform",
+      "Delivering performant, accessible, and responsive web experiences",
+      "Collaborating with editorial and product teams in an agile environment",
+    ],
+    accent: "bg-honey-200",
+    badge: "Current",
+  },
+  {
+    role: "Acting Sales Manager",
+    company: "Confidential",
+    location: "Saudi Arabia",
+    period: "2020 – 2022",
+    type: "Full-time",
+    description:
+      "Led a sales team, overseeing performance targets, pipeline management, and cross-functional coordination. Developed a results-driven approach to team leadership and strategic planning.",
+    highlights: [
+      "Managed and mentored a sales team toward quarterly targets",
+      "Designed sales strategies based on market analysis",
+      "Coordinated cross-departmental initiatives",
+      "Reported KPIs to senior leadership",
+    ],
+    accent: "bg-powder-300",
+    badge: null,
+  },
+  {
+    role: "Sales & Leasing Consultant",
+    company: "Banque Saudi Fransi",
+    location: "Saudi Arabia",
+    period: "2018 – 2020",
+    type: "Full-time",
+    description:
+      "Managed a portfolio of individual and corporate clients, providing tailored financial and leasing solutions. Built strong client relationships through expert needs assessment and personalised advisory.",
+    highlights: [
+      "Managed a diverse client portfolio for financial products",
+      "Delivered customised leasing and financial solutions",
+      "Consistently exceeded monthly sales targets",
+      "Developed expertise in financial assessment and credit evaluation",
+    ],
+    accent: "bg-minty-100",
+    badge: null,
+  },
+  {
+    role: "Leasing Consultant",
+    company: "Alinma Bank",
+    location: "Saudi Arabia",
+    period: "2016 – 2018",
+    type: "Full-time",
+    description:
+      "Provided leasing consultancy services to retail and business clients, focusing on vehicle and asset financing. Built deep knowledge of the Saudi financial market and regulatory landscape.",
+    highlights: [
+      "Conducted client financial assessments for leasing products",
+      "Advised clients on optimal financing structures",
+      "Maintained strong client retention through follow-up and service quality",
+    ],
+    accent: "bg-bubblegum/60",
+    badge: null,
+  },
+  {
+    role: "Sales Representative",
+    company: "Abdul Latif Jameel",
+    location: "Saudi Arabia",
+    period: "2014 – 2016",
+    type: "Full-time",
+    description:
+      "Front-line sales role at one of the largest automotive and consumer goods distributors in the Middle East. Developed core commercial skills in a high-volume, competitive market.",
+    highlights: [
+      "Managed end-to-end customer sales journey",
+      "Built strong prospecting and negotiation skills",
+      "Contributed to branch-level revenue targets",
+    ],
+    accent: "bg-moon-mist-100",
+    badge: null,
+  },
+];
+---
+
+<section
+  id="experience"
+  class="border-b border-bone-100 px-8 py-16 sm:px-10 sm:py-20 lg:px-15 lg:py-24"
+>
+  <div class="mx-auto max-w-6xl">
+    <!-- Section header -->
+    <div class="mb-12 flex flex-col gap-4">
+      <div class="inline-flex w-fit items-center gap-2 rounded-full border border-bone-300 bg-cream-100 px-3 py-1">
+        <span class="h-1.5 w-1.5 rounded-full bg-honey-200"></span>
+        <span class="text-xs font-medium text-stone-600">Experience</span>
+      </div>
+      <h2 class="font-outfit text-4xl font-black text-stone-900 sm:text-5xl">
+        Where I've worked.
+      </h2>
+      <p class="max-w-lg text-stone-600">
+        A career that spans media, finance, and sales — giving me a uniquely broad perspective
+        that I bring to every technical challenge.
+      </p>
+    </div>
+
+    <!-- Timeline -->
+    <div class="relative flex flex-col gap-0">
+      <!-- Vertical line -->
+      <div
+        class="absolute top-0 bottom-0 left-4 w-px bg-bone-200 lg:left-8"
+        aria-hidden="true"
+      ></div>
+
+      {
+        experiences.map((exp, i) => (
+          <div class="group relative flex gap-6 pb-10 last:pb-0 lg:gap-10">
+            <!-- Dot -->
+            <div class="relative z-10 flex h-9 w-9 shrink-0 items-center justify-center rounded-full border-2 border-bone-200 bg-cream-50 transition-colors duration-300 group-hover:border-honey-200 lg:h-10 lg:w-10">
+              <div class={`h-2.5 w-2.5 rounded-full ${exp.accent} transition-transform duration-300 group-hover:scale-125`} />
+            </div>
+
+            <!-- Card -->
+            <div class="flex-1 rounded-2xl border border-bone-100 bg-cream-100 p-6 transition-all duration-300 hover:border-bone-300 hover:shadow-sm sm:p-8">
+              <div class="flex flex-wrap items-start justify-between gap-3">
+                <div>
+                  <div class="flex flex-wrap items-center gap-2">
+                    <h3 class="font-outfit text-xl font-bold text-stone-900">
+                      {exp.role}
+                    </h3>
+                    {exp.badge && (
+                      <span class="rounded-full bg-honey-200 px-2 py-0.5 text-xs font-semibold text-stone-900">
+                        {exp.badge}
+                      </span>
+                    )}
+                  </div>
+                  <div class="mt-1 flex flex-wrap items-center gap-x-3 gap-y-1">
+                    <span class="font-semibold text-stone-700">{exp.company}</span>
+                    <span class="text-stone-400">·</span>
+                    <span class="text-sm text-stone-500">{exp.location}</span>
+                  </div>
+                </div>
+                <div class="flex flex-col items-end gap-1">
+                  <span class="rounded-md bg-serenade-50 px-2.5 py-1 text-xs font-medium text-stone-600">
+                    {exp.period}
+                  </span>
+                  <span class="text-xs text-stone-400">{exp.type}</span>
+                </div>
+              </div>
+
+              <p class="mt-4 text-sm leading-relaxed text-stone-600">{exp.description}</p>
+
+              <ul class="mt-4 flex flex-col gap-2">
+                {exp.highlights.map((h) => (
+                  <li class="flex items-start gap-2.5 text-sm text-stone-600">
+                    <span class="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-honey-200" aria-hidden="true" />
+                    {h}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+</section>

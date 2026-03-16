@@ -1,0 +1,212 @@
+{
+  "pages": {
+    "https://filamentphp.com/": {
+      "title": "Build Laravel apps & admin panels fast - Filament",
+      "headings": [
+        "Build apps & admin panelsfast, for yourbright ideas.",
+        "UI components",
+        "TALL Stack",
+        "Turn PHP into polished UI",
+        "Sponsors",
+        "Trusted by the community"
+      ],
+      "ctas": [
+        "Docs",
+        "Home",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "CustomDashboardsNew",
+        "29.8K+GitHub stars",
+        "DocsDocumentation",
+        "29.8K+Star on GitHub",
+        "HomeYou're here",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "Custom DashboardsNew",
+        "Get started"
+      ],
+      "status": 200
+    },
+    "https://filamentphp.com/docs": {
+      "title": "Documentation - Filament",
+      "headings": [
+        "Filament Documentation",
+        "Quick Links",
+        "Resources",
+        "Table columns",
+        "Action buttons",
+        "Form fields",
+        "Infolist entries",
+        "Schema layouts",
+        "Notifications",
+        "Widgets"
+      ],
+      "ctas": [
+        "Skip to main content",
+        "Custom Dashboards",
+        "Filamenthome page",
+        "filamentphp/filament",
+        "filamentphp/filament",
+        "What is Filament?",
+        "Installation",
+        "AI-assisted development",
+        "Optimizing local development",
+        "Help",
+        "Version support policy",
+        "Contributing",
+        "Getting started",
+        "Overview",
+        "Listing records"
+      ],
+      "status": 200
+    },
+    "https://filamentphp.com/plugins": {
+      "title": "Plugins - Filament",
+      "headings": [
+        "Plugins",
+        "Featured Plugins",
+        "All Plugins",
+        "Plugins"
+      ],
+      "ctas": [
+        "Docs",
+        "Home",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "CustomDashboardsNew",
+        "29.8K+GitHub stars",
+        "DocsDocumentation",
+        "29.8K+Star on GitHub",
+        "Home",
+        "PluginsYou're here",
+        "Insights",
+        "Consulting",
+        "Custom DashboardsNew",
+        "Submit plugins"
+      ],
+      "status": 200
+    },
+    "https://filamentphp.com/blog": {
+      "title": "Insights - Filament",
+      "headings": [
+        "Insights",
+        "Articles"
+      ],
+      "ctas": [
+        "Docs",
+        "Home",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "CustomDashboardsNew",
+        "29.8K+GitHub stars",
+        "DocsDocumentation",
+        "29.8K+Star on GitHub",
+        "Home",
+        "Plugins",
+        "InsightsYou're here",
+        "Consulting",
+        "Custom DashboardsNew",
+        "View all episodes"
+      ],
+      "status": 200
+    },
+    "https://filamentphp.com/consulting": {
+      "title": "Consulting - Filament",
+      "headings": [
+        "Expert help for your Filament projects"
+      ],
+      "ctas": [
+        "Docs",
+        "Home",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "CustomDashboardsNew",
+        "29.8K+GitHub stars",
+        "DocsDocumentation",
+        "29.8K+Star on GitHub",
+        "Home",
+        "Plugins",
+        "Insights",
+        "ConsultingYou're here",
+        "Custom DashboardsNew",
+        "ready to take on your projects"
+      ],
+      "status": 200
+    },
+    "https://filamentphp.com/community": {
+      "title": "Insights - Filament",
+      "headings": [
+        "Insights",
+        "Articles"
+      ],
+      "ctas": [
+        "Docs",
+        "Home",
+        "Plugins",
+        "Insights",
+        "Consulting",
+        "CustomDashboardsNew",
+        "29.8K+GitHub stars",
+        "DocsDocumentation",
+        "29.8K+Star on GitHub",
+        "Home",
+        "Plugins",
+        "InsightsYou're here",
+        "Consulting",
+        "Custom DashboardsNew",
+        "View all episodes"
+      ],
+      "status": 200
+    }
+  },
+  "css_urls": [
+    "https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap",
+    "https://filamentphp.com/docs/_next/static/css/03d4737cecf2da82.css?dpl=dpl_8RWgcz7Rom6ER8ccMBrKbfmFJwvb",
+    "https://fonts.googleapis.com/css2?family=Outfit:ital,wght@0,500;1,500&display=swap",
+    "https://filamentphp.com/docs/_next/static/css/05d6d8fcb903870d.css?dpl=dpl_8RWgcz7Rom6ER8ccMBrKbfmFJwvb",
+    "https://filamentphp.com/docs/_next/static/css/93bac6dd9c729729.css?dpl=dpl_8RWgcz7Rom6ER8ccMBrKbfmFJwvb",
+    "https://filamentphp.com/build/assets/app-BJNxUIvr.css"
+  ],
+  "font_urls": [],
+  "logo_urls": [
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon-dark/favicon-16x16.png",
+    "https://filamentphp.com/favicon/favicon.svg?v=6bT7Ed2SVA",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon/favicon.ico",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon/favicon-32x32.png",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon-dark/favicon-32x32.png",
+    "https://filamentphp.com/build/assets/bright-ideas-DxBthplL.webp",
+    "https://filamentphp.com/build/assets/logo-highlight-decoration-CCc501QJ.webp",
+    "https://filamentphp.com/favicon/favicon.ico?v=6bT7Ed2SVA",
+    "https://filamentphp.com/og/consulting.png",
+    "https://filamentphp.com/favicon/apple-touch-icon.png?v=6bT7Ed2SVA",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon/favicon-16x16.png",
+    "https://filament-34a8cf01.mintlify.app/_next/image?url=%2F_mintlify%2Fapi%2Fog%3Fdivision%3DDocumentation%26title%3DDocumentation%26logoLight%3Dhttps%253A%252F%252Fmintcdn.com%252Ffilament-34a8cf01%252FIXEGm3ksDuq2LnU2%252Flogo%252Flight.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DIXEGm3ksDuq2LnU2%2526q%253D85%2526s%253D5a2603a4ad2870810a4f2b249f765d56%26logoDark%3Dhttps%253A%252F%252Fmintcdn.com%252Ffilament-34a8cf01%252FIXEGm3ksDuq2LnU2%252Flogo%252Fdark.svg%253Ffit%253Dmax%2526auto%253Dformat%2526n%253DIXEGm3ksDuq2LnU2%2526q%253D85%2526s%253D1cda6327b7957831f251713984a64599%26primaryColor%3D%2523e38a00%26lightColor%3D%2523efaf5d%26darkColor%3D%2523e38a00%26backgroundLight%3D%2523fff1e3%26backgroundDark%3D%25230e0c0d&w=1200&q=100",
+    "https://filamentphp.com/favicon/favicon-96x96.png?v=6bT7Ed2SVA",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon/apple-touch-icon.png",
+    "https://filamentphp.com/og/plugins.png",
+    "https://filamentphp.com/build/assets/kirschbaum-logo-C_H6jDeQ.webp",
+    "https://filamentphp.com/docs/_mintlify/favicons/filament-34a8cf01/jJP5xwq9FIhJfUIU/_generated/favicon-dark/favicon.ico",
+    "https://mintcdn.com/filament-34a8cf01/IXEGm3ksDuq2LnU2/logo/dark.svg?fit=max&auto=format&n=IXEGm3ksDuq2LnU2&q=85&s=1cda6327b7957831f251713984a64599",
+    "https://mintcdn.com/filament-34a8cf01/IXEGm3ksDuq2LnU2/logo/light.svg?fit=max&auto=format&n=IXEGm3ksDuq2LnU2&q=85&s=5a2603a4ad2870810a4f2b249f765d56",
+    "https://filamentphp.com/og/insights.png",
+    "https://filamentphp.com/og/home.png",
+    "https://filamentphp.com/build/assets/bright-ideas-bulb-BMtmkOIL.webp"
+  ],
+  "image_urls": [
+    "https://fls-a148a526-7ce4-465e-b283-9b405912858a.laravel.cloud/019c960b-8dbb-73fc-bfdc-c6353fa325be/conversions/01KJB0Q3CQYKC7BJ6N6W3HB04F-optimized.webp",
+    "https://filamentphp.com/build/assets/trevor-greenleaf-CK0YES0i.webp",
+    "https://filamentphp.com/build/assets/light-bulb-CaWrwv1p.webp",
+    "https://fls-a148a526-7ce4-465e-b283-9b405912858a.laravel.cloud/019c9538-931d-701c-8245-52083c9a1dac/conversions/padmission-data-lens-optimized.webp",
+    "https://fls-a148a526-7ce4-465e-b283-9b405912858a.laravel.cloud/019ce762-ede3-7245-a80a-731d448af0a9/conversions/01KKKP5VDB3JMM6S9CN8STERP2-optimized.webp",
+    "https://fls-a148a526-7ce4-465e-b283-9b405912858a.laravel.cloud/019c953a-0e2b-7127-9e05-8d899d66321e/mailtrap.svg",
+    "https://filamentphp.com/build/assets/alex-six-CqwuageU.webp",
+    "https://filamentphp.com/build/assets/notifications-Chl0PoDP.webp",
+    "https://mintcdn.com/filament-34a8cf01/TGqCET1V_8pwvcC0/images/hero.webp?fit=max&auto=format&n=TGqCET1V_8pwvcC0&q=85&s=8f0c182b58dd4439ce4b6eb2868d4b1f",
+    "https://fls-a148a526-7ce4-465e-b283-9b405912858a.laravel.cloud/019c953a-0dc5-739f-bcb3-25c033523707/baiz-ai.svg"
+  ]
+}
