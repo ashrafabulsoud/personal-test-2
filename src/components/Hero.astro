@@ -14,11 +14,6 @@
     aria-hidden="true"
   ></div>
 
-  <!-- Comets -->
-  <div class="comet comet-1" aria-hidden="true"></div>
-  <div class="comet comet-2" aria-hidden="true"></div>
-  <div class="comet comet-3" aria-hidden="true"></div>
-
   <!-- Decorative orbs -->
   <div
     class="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-honey-100/30 blur-3xl"
@@ -301,53 +296,6 @@
     100% { opacity: 0; background-position: -200% 0; }
   }
 
-  /* ── Comets ── */
-  .comet {
-    position: absolute;
-    width: 180px;
-    height: 1.5px;
-    border-radius: 9999px;
-    /* tail: transparent → honey glow → bright tip */
-    background: linear-gradient(
-      90deg,
-      transparent 0%,
-      oklch(79.8191% .123963 71.1736 / 0.15) 40%,
-      oklch(79.8191% .123963 71.1736 / 0.7) 80%,
-      #fff 100%
-    );
-    filter: blur(0.6px);
-    opacity: 0;
-    pointer-events: none;
-  }
-
-  /* Each comet starts off-screen top-left, travels diagonally */
-  .comet-1 {
-    top: 12%;
-    left: -200px;
-    animation: comet-fly 5s ease-in-out 0.4s infinite;
-  }
-  .comet-2 {
-    top: 30%;
-    left: -200px;
-    width: 240px;
-    animation: comet-fly 5s ease-in-out 2.2s infinite;
-    opacity: 0;
-  }
-  .comet-3 {
-    top: 6%;
-    left: -200px;
-    width: 120px;
-    animation: comet-fly 5s ease-in-out 3.8s infinite;
-    opacity: 0;
-  }
-
-  @keyframes comet-fly {
-    0%   { transform: translateX(0)      translateY(0)    rotate(-20deg); opacity: 0; }
-    5%   { opacity: 1; }
-    80%  { opacity: 0.6; }
-    100% { transform: translateX(110vw)  translateY(40px) rotate(-20deg); opacity: 0; }
-  }
-
   /* Respect reduced-motion preference */
   @media (prefers-reduced-motion: reduce) {
     .avatar-ring,
@@ -356,8 +304,7 @@
     .avatar-dot-minty,
     .avatar-dot-powder,
     .avatar-circle,
-    .avatar-shine,
-    .comet {
+    .avatar-shine {
       animation: none;
     }
   }
