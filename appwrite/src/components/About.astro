@@ -1,0 +1,111 @@
+---
+---
+
+<section
+  id="about"
+  class="relative border-b border-bone-100 px-8 py-16 sm:px-10 sm:py-20 lg:px-15 lg:py-24"
+>
+  <div class="bg-dots pointer-events-none absolute inset-0 opacity-20" aria-hidden="true"></div>
+  <div class="mx-auto max-w-6xl relative">
+    <div class="grid grid-cols-1 gap-12 lg:grid-cols-2 lg:gap-20">
+      <!-- Left — Section label + headline -->
+      <div class="flex flex-col gap-6">
+        <div class="inline-flex w-fit items-center gap-2 rounded-full border border-bone-300 bg-cream-100 px-3 py-1">
+          <span class="h-1.5 w-1.5 rounded-full bg-honey-200"></span>
+          <span class="text-xs font-medium text-stone-600">About me</span>
+        </div>
+
+        <h2 class="font-outfit text-4xl font-black leading-tight text-stone-900 sm:text-5xl">
+          Where business acumen
+          <span class="text-honey-200"> meets code.</span>
+        </h2>
+
+        <p class="text-base leading-relaxed text-stone-600">
+          I'm a Web Developer based in London with a Computer Science background and a career
+          path that took me through banking, financial consulting, and sales management before
+          landing in tech. That journey wasn't a detour — it was a foundation.
+        </p>
+
+        <p class="text-base leading-relaxed text-stone-600">
+          At <strong class="font-semibold text-stone-800">Al-Fanar Media</strong>, I build
+          digital products for one of the Arab world's leading independent news organisations,
+          covering education, research, and culture across the region. I understand what it
+          means to build for real users with real impact.
+        </p>
+
+        <p class="text-base leading-relaxed text-stone-600">
+          My background in finance taught me to think in systems, work under pressure, and
+          communicate clearly across teams. I bring those instincts into every project I touch.
+        </p>
+
+        <!-- Values pills -->
+        <div class="flex flex-wrap gap-2 pt-2">
+          {
+            [
+              "Impact-driven",
+              "Bilingual (AR/EN)",
+              "Cross-industry perspective",
+              "User-first thinking",
+            ].map((tag) => (
+              <span class="rounded-full border border-bone-300 bg-serenade-50 px-3 py-1 text-sm text-stone-700">
+                {tag}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+
+      <!-- Right — Highlight cards -->
+      <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+        {
+          [
+            {
+              icon: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>`,
+              title: "Web Development",
+              body: "Crafting modern, performant web experiences with a focus on clean architecture and user experience.",
+              bg: "bg-stone-800",
+              text: "text-stone-100",
+              accent: "text-honey-200",
+            },
+            {
+              icon: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20h9"/><path d="M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z"/></svg>`,
+              title: "Business Analysis",
+              body: "Years in financial services sharpened my ability to define requirements, spot inefficiencies, and align tech with business goals.",
+              bg: "bg-cream-100",
+              text: "text-stone-800",
+              accent: "text-honey-200",
+            },
+            {
+              icon: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>`,
+              title: "Client Relationships",
+              body: "Managing complex stakeholder relationships across banking and media has made clear communication second nature.",
+              bg: "bg-serenade-50",
+              text: "text-stone-800",
+              accent: "text-stone-600",
+            },
+            {
+              icon: `<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>`,
+              title: "Bilingual & Global",
+              body: "Native Arabic and fluent English speaker — bridging the gap between Western tech and Arab-world audiences.",
+              bg: "bg-minty-100/40",
+              text: "text-stone-800",
+              accent: "text-stone-600",
+            },
+          ].map((card) => (
+            <div
+              class={`flex flex-col gap-4 rounded-2xl p-6 ${card.bg}`}
+            >
+              <div class={`${card.accent}`} set:html={card.icon} />
+              <div>
+                <h3 class={`mb-1.5 font-semibold ${card.text}`}>{card.title}</h3>
+                <p class={`text-sm leading-relaxed ${card.text === "text-stone-100" ? "text-stone-400" : "text-stone-600"}`}>
+                  {card.body}
+                </p>
+              </div>
+            </div>
+          ))
+        }
+      </div>
+    </div>
+  </div>
+</section>
